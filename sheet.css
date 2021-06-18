@@ -1,0 +1,36 @@
+.movement{
+    -webkit-animation-name: Floating;
+    -webkit-animation-duration:5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+}
+.movement1{
+    -webkit-animation-name: Floating1;
+    -webkit-animation-duration:5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+}
+.movement2{
+    -webkit-animation-name: Floating2;
+    -webkit-animation-duration:5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+}
+svg{
+    width: 20%;
+}
+@-webkit-keyframes Floating{
+    from {-webkit-transform:translate(0, 0px);}
+    65% {-webkit-transform:translate(0, 10px);}
+    to {-webkit-transform: translate(0, -0px);    }
+}
+@-webkit-keyframes Floating1{
+    from {-webkit-transform:translate(0, 0px);}
+    65% {-webkit-transform:translate(10px, 0);}
+    to {-webkit-transform: translate(0, -0px);    }
+}
+@-webkit-keyframes Floating2{
+    from {-webkit-transform:translate(0, -0px);}
+    65% {-webkit-transform:translate(0, -10px);}
+    to {-webkit-transform: translate(0, 0px);    }
+}
