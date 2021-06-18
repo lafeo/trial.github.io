@@ -17,7 +17,7 @@
     -webkit-animation-timing-function: ease-in-out;
 }
 svg{
-    width: 20%;
+    width: 100%;
 }
 @-webkit-keyframes Floating{
     from {-webkit-transform:translate(0, 0px);}
